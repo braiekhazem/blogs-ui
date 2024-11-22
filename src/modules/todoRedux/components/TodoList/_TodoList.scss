@@ -1,0 +1,19 @@
+.todo_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+    &_btn {
+      border-radius: 12px;
+      padding: 3px 12px;
+      cursor: pointer;
+    }
+  }
+}
